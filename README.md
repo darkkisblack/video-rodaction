@@ -10,5 +10,5 @@
 2. CSS.
 
 
-Ссылка для просмотра -- https://darkkisblack.github.io/video-rodaction/
+Ссылка для просмотра -- https://darkkisblack.github.io/video-rodaction/preview/preview.html
 
