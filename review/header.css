@@ -17,7 +17,7 @@
   display: flex;
   flex-direction: column;
   padding-bottom: 25px;
-  background: #151617 url(/images/bg/top-line.jpg) right 48% top no-repeat;
+  background: #151617 url("/images/bg/top-line.jpg") right 48% top no-repeat;
   margin-bottom: 100px;
 }
 

@@ -32,13 +32,13 @@ a {
   height: 100%;
   align-items: center;
   justify-content: center;
-  background: url(/images/bg/bottom-pic.jpg) center bottom  / cover no-repeat;
+  background: url("/images/bg/bottom-pic.jpg") center bottom  / cover no-repeat;
 }
 
 .welcome__container {
   width: 1128px;
   height: 643px;
-  background: url(/images/rec.png)center bottom 76% / cover no-repeat ;
+  background: url("/images/rec.png")center bottom 76% / cover no-repeat ;
   background-blend-mode: darken;
 }
 
