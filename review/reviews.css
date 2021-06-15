@@ -1,7 +1,7 @@
-@import url('/review/normalize.css');
-@import url('/review/basic.css');
-@import url('/review/header.css');
-@import url('/review/review-content.css');
-@import url('/review/separator.css');
-@import url('/review/inner.css');
-@import url('/review/footer.css');
+@import url('normalize.css');
+@import url('basic.css');
+@import url('header.css');
+@import url('review-content.css');
+@import url('separator.css');
+@import url('inner.css');
+@import url('footer.css');
