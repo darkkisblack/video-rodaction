@@ -1,0 +1,160 @@
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 600px;
+  margin-bottom: 231px;
+}
+
+.header {
+  display: flex;
+align-items: center;
+  padding-top: 45px;
+  margin-bottom: 30px;
+ 
+  justify-content: space-between;
+  
+}
+
+
+
+  
+
+.logo {
+  display: block;
+
+
+}
+
+.logo:hover {
+  box-shadow: 0 0 25px 0 #44291e;
+}
+
+
+.contacts {
+  justify-content: flex-end;
+
+  font-style: normal;
+  text-align: right;
+  margin-left: 47px;
+
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.menu__item--active .menu__link {
+  color: #ff3c00;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color:#ff5300;
+}
+
+
+
+.contacts__desc {
+  color: #9a9a9a;
+  font-size: 11px;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 4px;
+}
+
+
+
+.contacts__dropdown {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #ff5400;
+  cursor: pointer;
+}
+
+
+
+.dropdown-content {
+  font-size: 13px;
+  visibility: hidden;
+  position: absolute;
+background:url(/images/cont.png) center right no-repeat;
+  width: 160px;
+  height: 80px;
+  z-index: 1;
+  opacity: 0;
+  padding: 21px 19px;
+  left: 1218px;
+  top: 97px;
+ 
+}
+
+
+
+.work__days {
+ font-weight: bold;
+}
+
+.dropdown-content li {
+  color: #1E1F20;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  opacity: 1;
+visibility: visible;
+}
+
+.hero__text-section {
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.hero__title {
+    letter-spacing: 1px;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: uppercase;
+  
+}
+
+.hero__subtitle {
+  margin-top: 20px;
+  font-size: 18px;
+  margin-bottom: 44px;
+}
+
+.btn {
+  background: #ff3900;
+  border-radius: 25px;
+  padding: 15px 48px;
+ color: #fff;
+ font-weight: bold;
+ text-transform: uppercase;
+ text-decoration: none;
+ 
+}
+
+.btn:hover {
+  background: #ff5300;
+  color: #fff;
+}
